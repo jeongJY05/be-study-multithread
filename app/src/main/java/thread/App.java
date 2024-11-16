@@ -10,6 +10,7 @@ import thread.lecture.ConditionBasic;
 import thread.lecture.DataConditionBasic;
 import thread.lecture.InterruptBasic;
 import thread.lecture.JoinBasic;
+import thread.lecture.LockFreeBasic;
 import thread.lecture.LockingStrategeBasic;
 import thread.lecture.ObjectSignalBasic;
 import thread.lecture.OptimizationBasic;
@@ -65,7 +66,10 @@ public class App {
         // SemaphoreBasic semaphoreBasic = new SemaphoreBasic();
         // semaphoreBasic.execute();
 
-        ObjectSignalBasic objectSignalBasic = new ObjectSignalBasic();
-        objectSignalBasic.execute();
+        // ObjectSignalBasic objectSignalBasic = new ObjectSignalBasic();
+        // objectSignalBasic.execute();
+
+        LockFreeBasic lockFreeBasic = new LockFreeBasic();
+        lockFreeBasic.execute();
     }
 }
